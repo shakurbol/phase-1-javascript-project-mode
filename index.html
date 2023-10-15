@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuck Norris Joke Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Chuck Norris Joke Generator</h1>
-        <img id="chuckNorrisImage" src="chuck norris .jpg" alt="Chuck Norris">
+        <img id="chuckNorrisImage" src="chuck-norris.jpg" alt="Chuck Norris">
         <button id="generateJoke">Generate Joke</button>
         <button id="clearJoke">Clear Joke</button>
+        <button id="fetchExternalJoke">Fetch External Joke</button>
         <input type="checkbox" id="themeToggle">
         <p id="joke"></p>
-        
-        
+
+        <!-- Form to enter a custom Chuck Norris joke -->
         <form id="customJokeForm">
             <input type="text" id="customJokeInput" placeholder="Enter your joke">
             <button type="submit">Submit Custom Joke</button>
